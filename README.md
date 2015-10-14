@@ -19,14 +19,14 @@ for dataset in datasets:
     title  = data.getDatasetTitle(dataset)
     print title
 ```
-### Methods
+### Methods for a dataset
 
 Method | Description
 ------------ | -------------
-getDatasetsList() | comming soon 
-getDatasetTitle(dataset)| comming soon
-getDatasetDescription(dataset)| comming soon
-getDatasetPublisher(dataset)| comming soon
+getDatasetsList() | Returns a list of dataset dictionaries
+getDatasetTitle(dataset)| Returns the title of a dataset
+getDatasetDescription(dataset)| Returns the description of a dataset
+getDatasetPublisher(dataset)| Return the Publisher 
 getDatasetKeywords(dataset)| comming soon
 getDatasetLandingPage(dataset)| comming soon
 getDatasetDateIssued(dataset)| comming soon
@@ -39,6 +39,10 @@ getDatasetThumbnail(dataset)| comming soon
 getDatasetAGOLItemID(dataset)| comming soon
 getDatasetItemThumbnail(id,url)| comming soon
 getResourcesTitle(resource)| comming soon
+
+### Methods for a resource of a dataset
+Method | Description
+------------ | -------------
 getResourcesURL(resource)| comming soon
 getResourcesMediaType(resource)| comming soon
 getResourcesFormat(resource)| comming soon
