@@ -1,2 +1,7 @@
+## ArcGIS Open Data Bindings
 
-pip install -e git://github.com/jnordling/opendata.git#egg=opendata
+### Overview
+ArcGIS Open Data provides JSON export in the DCAT format, this module is a python API to access datasets and its resources via python.
+
+### Getting Started
+>pip install git://github.com/jnordling/opendata.git
