@@ -4,8 +4,21 @@
 ArcGIS Open Data provides JSON export in the DCAT format, this module is a python API to access datasets and its resources via python.
 
 ### Getting Started
+```sh
 pip install git+https://github.com/jnordling/opendata.git
+```
 
+```python
+from opendata import opendata as od
+
+url = 'http://data.globalforestwatch.org/data.json'
+conn = od.Connect(url)
+data = od.Data(conn)
+datasets = data.getOpenDataDatasets()
+for dataset in datasets:
+    title  = data.getDatasetTitle(dataset)
+    print title
+```
 ### Methods
 
 Method | Description
