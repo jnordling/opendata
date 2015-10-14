@@ -28,7 +28,7 @@ getDatasetTitle(dataset)| Returns the title of a dataset
 getDatasetDescription(dataset)| Returns the description of a dataset
 getDatasetPublisher(dataset)| Returns the publisher of dataset
 getDatasetKeywords(dataset)| Returns a list of the keywords of the dataset
-getDatasetLandingPage(dataset)| Returns the Landing Page of the dataset
+getDatasetUrl(dataset)| Returns the Landing Page of the dataset 
 getDatasetDateIssued(dataset)| Returns dataset issued date
 getDatasetDateModified(dataset)| Returns the date the dataset was modified 
 getDatasetContact(dataset)| Returns the contact name of the dataset

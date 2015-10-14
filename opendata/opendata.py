@@ -38,7 +38,7 @@ class Data(object):
     def getDatasetKeywords(self, dataset):
         return dataset['keyword']
 
-    def getDatasetLandingPage(self, dataset):
+    def getDatasetUrl(self, dataset):
         return dataset['landingPage']
 
     def getDatasetDateIssued(self, dataset):
