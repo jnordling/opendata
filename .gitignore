@@ -1,5 +1,6 @@
 build
 dist
-*.info
+src
+*.egg*
 .idea
 *.iml

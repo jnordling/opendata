@@ -6,6 +6,7 @@ import requests
 class Connect(object):
     def __init__(self, url, **kwargs):
         self.url = url
+        self.testname = "Jon"
         self.is_valid = self.is_valid(self.url, **kwargs)
 
     def is_valid(self, url):
