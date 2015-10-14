@@ -1,0 +1,5 @@
+build
+dist
+*.info
+.idea
+*.iml
