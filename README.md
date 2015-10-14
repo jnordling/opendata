@@ -26,24 +26,24 @@ Method | Description
 getDatasetsList() | Returns a list of dataset dictionaries
 getDatasetTitle(dataset)| Returns the title of a dataset
 getDatasetDescription(dataset)| Returns the description of a dataset
-getDatasetPublisher(dataset)| Return the Publisher 
-getDatasetKeywords(dataset)| comming soon
-getDatasetLandingPage(dataset)| comming soon
-getDatasetDateIssued(dataset)| comming soon
-getDatasetDateModified(dataset)| comming soon
-getDatasetContact(dataset)| comming soon
-getDatasetResources(dataset)| comming soon
-getDatasetSpatial(dataset)| comming soon
-getDatasetTheme(dataset)| comming soon
-getDatasetThumbnail(dataset)| comming soon
-getDatasetAGOLItemID(dataset)| comming soon
-getDatasetItemThumbnail(id,url)| comming soon
-getResourcesTitle(resource)| comming soon
+getDatasetPublisher(dataset)| Returns the publisher of dataset
+getDatasetKeywords(dataset)| Returns a list of the keywords of the dataset
+getDatasetLandingPage(dataset)| Returns the Landing Page of the dataset
+getDatasetDateIssued(dataset)| Returns dataset issued date
+getDatasetDateModified(dataset)| Returns the date the dataset was modified 
+getDatasetContact(dataset)| Returns the contact name of the dataset
+getDatasetSpatial(dataset)| Returns the spatial extent of the dataset
+getDatasetTheme(dataset)| Return the them of the dataset
+getDatasetThumbnail(dataset)| Returns the thumbnail of the dataset
+getDatasetAGOLItemID(dataset)| Returns the ArcGIS online ID for the dataset
+getDatasetItemThumbnail(id,url)| Returns the link to the thumnail for the dataset from ArcGIS online
 
 ### Methods for a resource of a dataset
 Method | Description
 ------------ | -------------
-getResourcesURL(resource)| comming soon
-getResourcesMediaType(resource)| comming soon
-getResourcesFormat(resource)| comming soon
+getDatasetResources(dataset)| Return a list of resource dictionaries
+getResourcesTitle(resource)| Returns the title of the resource
+getResourcesURL(resource)| Returns a url of the resource
+getResourcesMediaType(resource)| Returns the Media Type of the data
+getResourcesFormat(resource)| Returns the format of the data
  
