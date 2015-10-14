@@ -1,0 +1,39 @@
+ getDatasetsList():
+
+ getDatasetTitle(dataset):
+
+ getDatasetDescription(dataset):
+
+ getDatasetPublisher(dataset):
+
+ getDatasetKeywords(dataset):
+
+ getDatasetLandingPage(dataset):
+
+ getDatasetDateIssued(dataset):
+
+ getDatasetDateModified(dataset):
+
+ getDatasetContact(dataset):
+
+ getDatasetResources(dataset):
+
+ getDatasetSpatial(dataset):
+
+ getDatasetTheme(dataset):
+
+ getDatasetThumbnail(dataset):
+
+ getDatasetAGOLItemID(dataset):
+
+ getDatasetItemThumbnail(id,url):
+
+ getResourcesTitle(resource):
+
+
+ getResourcesURL(resource):
+
+
+ getResourcesMediaType(resource):
+
+ getResourcesFormat(resource):

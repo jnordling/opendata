@@ -23,7 +23,7 @@ class Data(object):
     def __init__(self, conn, **kwargs):
         self.url = conn.url
 
-    def getOpenDataDatasets(self):
+    def getDatasetsList(self):
         return requests.get(self.url).json()['dataset']
 
     def getDatasetTitle(self, dataset):
@@ -65,13 +65,13 @@ class Data(object):
     def getDatasetAGOLItemID(self, dataset):
         return dataset['identifier'].split('/')[-1]#.split('_')[0]
 
-    def getDatasetItemThumnail(self,id,url):
+    def getDatasetItemThumbnail(self,id,url):
         return False
     #
     # OpenDataPortal Resource Functions
     #
 
-    def getDatasetResourcesTitle(self,resource):
+    def getResourcesTitle(self,resource):
         name = 'Resource'
         if resource.has_key('title'):
             name = resource['title']
@@ -79,7 +79,7 @@ class Data(object):
             name = resource['format']
         return name
 
-    def getDatasetResourcesURL(self, resource):
+    def getResourcesURL(self, resource):
         url = ''
         if resource.has_key('accessURL'):
             url= resource['accessURL']
@@ -91,8 +91,8 @@ class Data(object):
             url= resource['downloadURL']
         return url
 
-    def getDatasetResourcesMediaType(self,resource):
+    def getResourcesMediaType(self,resource):
         return resource['mediaType']
 
-    def getDatasetResourcesFormat(self, resource):
+    def getResourcesFormat(self, resource):
         return resource['format']
