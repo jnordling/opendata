@@ -4,3 +4,4 @@ src
 *.egg*
 .idea
 *.iml
+*.pyc
