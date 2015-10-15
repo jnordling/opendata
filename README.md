@@ -46,4 +46,36 @@ getResourcesTitle(resource)| Returns the title of the resource
 getResourcesURL(resource)| Returns a url of the resource
 getResourcesMediaType(resource)| Returns the Media Type of the data
 getResourcesFormat(resource)| Returns the format of the data
+
+### AgolItem Object Attribute
+item.id
+item.owner
+item.created
+item.modified
+item.name
+item.title
+item.url
+item.type
+item.typeKeywords
+item.description
+item.tags
+item.snippet
+item.thumbnail
+item.extent
+item.spatialReference
+item.accessInformation
+item.licenseInfo
+item.culture
+item.access
+item.industries
+item.languages
+item.largeThumbnail
+item.banner
+item.screenshots
+item.listed
+item.size
+item.numComments
+item.numRatings
+item.avgRating
+item.numViews
  
