@@ -47,7 +47,7 @@ getResourcesURL(resource)| Returns a url of the resource
 getResourcesMediaType(resource)| Returns the Media Type of the data
 getResourcesFormat(resource)| Returns the format of the data
 
-### AgolItem Object Attribute
+### Agol Item Object Properties
 Property | Description
 ------------ | -------------
 item.id |
