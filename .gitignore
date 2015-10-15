@@ -1,6 +1,7 @@
 build
 dist
 src
+doc
 *.egg*
 .idea
 *.iml

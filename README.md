@@ -36,9 +36,7 @@ getDatasetDateModified(dataset)| Returns the date the dataset was modified
 getDatasetContact(dataset)| Returns the contact name of the dataset
 getDatasetSpatial(dataset)| Returns the spatial extent of the dataset
 getDatasetTheme(dataset)| Return the them of the dataset
-getDatasetThumbnail(dataset)| Returns the thumbnail of the dataset
 getDatasetAGOLItemID(dataset)| Returns the ArcGIS online ID for the dataset
-getDatasetItemThumbnail(id,url)| Returns the link to the thumnail for the dataset from ArcGIS online
 
 ### Methods for a resource of a dataset
 Method | Description

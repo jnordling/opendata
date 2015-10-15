@@ -61,9 +61,6 @@ class Data(object):
     def getDatasetTheme(self, dataset):
         return dataset['theme']
 
-    def getDatasetThumbnail(self, dataset):
-        return dataset['theme']
-
     def getDatasetOpenDataID(self,dataset):
         return dataset['identifier'].split('/')[-1]#.split('_')[0]
 
@@ -72,9 +69,6 @@ class Data(object):
 
     def getDatasetAGOLItemID(self, dataset):
         return dataset['identifier'].split('/')[-1].split('_')[0]
-
-    def getDatasetItemThumbnail(self,id,url):
-        return False
     #
     # OpenDataPortal Resource Functions
     #
