@@ -1,6 +1,9 @@
 __author__ = 'jnordling'
 
 import requests
+from agol import *
+
+
 
 
 class Connect(object):
@@ -16,7 +19,6 @@ class Connect(object):
             code = 500
         if code != 200:
             raise Exception("Url Not Valid")
-
         return code
 
 class Data(object):
@@ -62,8 +64,14 @@ class Data(object):
     def getDatasetThumbnail(self, dataset):
         return dataset['theme']
 
-    def getDatasetAGOLItemID(self, dataset):
+    def getDatasetOpenDataID(self,dataset):
         return dataset['identifier'].split('/')[-1]#.split('_')[0]
+
+    def getDatasetAGOLItem(self,itemID):
+        return AgolItem(id=itemID)
+
+    def getDatasetAGOLItemID(self, dataset):
+        return dataset['identifier'].split('/')[-1].split('_')[0]
 
     def getDatasetItemThumbnail(self,id,url):
         return False

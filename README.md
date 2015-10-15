@@ -17,7 +17,9 @@ data = od.Data(conn)
 datasets = data.getDatasetsList()
 for dataset in datasets:
     title  = data.getDatasetTitle(dataset)
-    print title
+    itemID = data.getDatasetAGOLItemID(dataset)
+    item = data.getDatasetAGOLItem(itemID)
+    print item.thumbnail
 ```
 ### Methods for a dataset
 
