@@ -49,6 +49,7 @@ getResourcesFormat(resource)| Returns the format of the data
 
 ### AgolItem Object Attribute
 Property | Description
+------------ | -------------
 item.id |
 item.owner |
 item.created |
