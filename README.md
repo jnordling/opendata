@@ -50,11 +50,11 @@ getResourcesFormat(resource)| Returns the format of the data
 ### Agol Item Object Properties
 Property | Description
 ------------ | -------------
-item.id |
-item.owner |
-item.created |
-item.modified |
-item.name |
+item.id | returns the Agol item id
+item.owner | returns the owner of the item
+item.created | returns the date item was created
+item.modified | returns the date the item was modified
+item.name | returns 
 item.title |
 item.url |
 item.type |
